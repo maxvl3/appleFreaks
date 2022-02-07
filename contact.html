@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Nieuws</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="images/applefreakslogo.png" alt="logo AppleFreaks"></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="nieuws.html">Nieuws</a></li>
+            <li><a href="releases.html">Releases</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <form action="index.html">
+            <h1>Contact met de redactie</h1>
+            <p>Heb je een nieuwstip, opmerking of klacht? Neem contact op met de redactie via het onderstaande formulier:</p>
+        
+            <label for="bericht">Naam</label>
+            <input type="text" id="naam" name="naam" placeholder="Je naam.." required>
+
+            <label for="mail">E-mail</label>
+            <input type="email" id="mail" name="mail" placeholder="Je e-mail.." required>
+
+            <label for="leeftijd">Leeftijd</label>
+            <input type="number" id="leeftijd" name="leeftijd" placeholder="Je leeftijd.." min="10" max="110" required>
+
+            <label for="onderwerp">Onderwerp</label>
+            <input type="text" id="onderwerp" name="onderwerp" placeholder="Betreffende onderwerp.." required>
+
+            <label for="bericht">Bericht</label>
+            <textarea id="bericht" name="bericht" placeholder="Type hier je bericht.." required></textarea>
+
+            <button type="submit">Verzenden</button>
+        </form>
+    </main>
+
+       
+    <footer>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="nieuws.html">Nieuws</a></li>
+            <li><a href="releases.html">Releases</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div>
+            <img src="images/iconfinder__41_2553074.png" alt="">
+            <img src="images/iconfinder_Circled_Facebook_svg_5279111.png" alt="">
+            <img src="images/iconfinder_Circled_Pinterest_svg_5279116.png" alt="">
+            <img src="images/iconfinder_Circled_Twitter_svg_5279123.png" alt="">
+        </div>
+    </footer>
+</body>
+</html>
